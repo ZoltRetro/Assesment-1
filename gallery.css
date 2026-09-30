@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    min-height: 230px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+#image1{
+    background-image: url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/logo.jpg);
+    height:100px;
+    width:340px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:30px;
+
+}
+.links{
+    display: flex;
+    font-size: 25px;
+    position: relative;
+    top:50px;
+  
+}
+#home{
+    margin-right: 30px;
+}
+
+#about{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#gallery{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#blog{
+    margin-left: 30px;
+    margin-right:30px;
+}
+#contact{
+    margin-left: 30px;
+}
+
+.content{
+    width:1000px;
+    height:800px;
+    position: relative;
+    align-items: center;
+    left:360px;
+}
+
+.group1{
+    display: flex;
+    position: relative;
+    right:60px;
+}
+.group2{
+    display: flex;
+    position: relative;
+    right:60px;
+}
+
+.group3{
+    display:flex;
+    position: relative;
+    right:60px;
+}
+
+.picture1{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache1.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-right: 20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture2{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache2.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-left: 20px;
+    margin-right:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+
+}
+.picture3{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache3.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-left: 20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture4{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache4.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-right:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture5{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache5.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-right:20px;
+    margin-left:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture6{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache6.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-left:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture7{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache7.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-right:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture8{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache8.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-right:20px;
+    margin-left:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+.picture9{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/mustache9.jpg);
+    background-repeat: no-repeat;
+    background-size: 20vw 30vh;
+    margin-top: 20px;
+    margin-left:20px;
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+}
+
+#gallery_box{
+    display:flex;
+    width:274px;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    background-color: rgb(44, 43, 43);
+    position: relative;
+    left:295px;
+    margin-bottom: 20px;;
+}
+
+#gallery_text{
+    font-size:50px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    min-height: 130px;
+    background-color: rgb(36, 35, 35);
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top:300px;
+}
+
+#cr{
+    color:white;
+    position: relative;
+    left:300px;
+
+}
+
+.listy{
+    display: flex;
+    flex-direction: row;
+    height:50px;
+    width:300px;
+    position:relative;
+    left:750px;
+}
+
+#twitter{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/icons/icon-twitter.jpg);
+    height:45px;
+    width:45px;
+    background-repeat:no-repeat;
+    margin-right:20px;
+}
+
+#facebook{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/icons/icon-facebook.jpg);
+    height:45px;
+    width:45px;
+    background-repeat:no-repeat;
+
+}
+
+#googleplus{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/icons/icon-googleplus.jpg);
+    height:45px;
+    width:45px;
+    background-repeat:no-repeat;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+#pintrist{
+    background-image:url(lecture-resource-main/CSET-110/Assessment-1\ Resource/images/icons/icon-pinterest.jpg);
+    height:45px;
+    width:45px;
+    background-repeat:no-repeat;
+}
