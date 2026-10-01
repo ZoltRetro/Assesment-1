@@ -65,18 +65,18 @@ html {
 .group1{
     display: flex;
     position: relative;
-    right:60px;
+    left:80px;
 }
 .group2{
     display: flex;
     position: relative;
-    right:60px;
+    left:80px;
 }
 
 .group3{
     display:flex;
     position: relative;
-    right:60px;
+    left:80px;
 }
 
 .picture1{
@@ -179,7 +179,7 @@ html {
     height:50px;
     background-color: rgb(44, 43, 43);
     position: relative;
-    left:295px;
+    left:435px;
     margin-bottom: 20px;;
 }
 
